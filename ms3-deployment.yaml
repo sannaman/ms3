@@ -26,10 +26,10 @@ kind: Service
 metadata:
   name: ms3
 spec:
-  type: ClusterIP
+  type: NodePort
   ports:
       - port: 9093
         targetPort: 9093
-#        nodePort: 31593
+        nodePort: 31593
   selector: 
       component: ms3
