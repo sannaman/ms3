@@ -12,7 +12,7 @@ public class SampleWebservice {
 	@GetMapping("/guest/response")
 	public String getGuestAddress() {
 
-		return "Microservice 3!!";
+		return "Microservice 3!!"+"Version2";
 	}
 
 }
