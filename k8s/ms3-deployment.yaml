@@ -17,6 +17,7 @@ spec:
       containers:
       - name: ms3
         image: sannaman/ms3
+        imagePullPolicy: Always
         ports:
         - containerPort: 9093
         
